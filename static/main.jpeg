@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://127.0.0.1:5500/templates/travel.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>travel</title>
+    <link rel="stylesheet" href="./main_files/style.css">
+    <style>
+      .home{
+    width: 100%;
+    height: 574px;
+  background-image: url("https://res.cloudinary.com/dxssqb6l8/image/upload/v1605294054/young-woman-enjoying-beautiful-scenery-of-lago-di-braies-italy-picjumbo-com_aa0fvw.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.navbar ul{
+     display:flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.navbar  ul li{
+   
+    margin:20px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.navbar  ul li a{
+    text-decoration: none;
+    color:rgb(30, 27, 27);
+}
+.navbar ul li a:hover{
+    color:rgb(135, 189, 222)
+}
+h1{
+    
+    font-size:50px;
+}
+</style>
+
+</head>
+<body>
+    <div class="home">
+          
+            <nav class="navbar">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/templates/index.html">home</a></li>
+                    <li><a href="http://127.0.0.1:5500/templates/blogposts.html">blogposts</a></li>
+                    <li><a href="http://127.0.0.1:5500/templates/reviwes.html">About Us</a></li>
+                    
+                </ul>
+            </nav>
+    </div>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+
+    <title>About Us</title>
+    <link rel="stylesheet" href="./main_files/aboutus.css">
+    
+
+
+    
+
+    <nav>
+        <!-- Navigation menu goes here -->
+    </nav>
+
+    <section>
+        <h2>About Us</h2>
+        <p>
+            We are a dedicated team of individuals who are passionate about the travelling experiences.About Us
+
+            Welcome to our travel blog website, where the world is our playground, and adventure awaits around every corner. We're  a passionate group of globetrotters with a burning desire to explore the beauty and diversity of our planet.
+            
+            Our journey into the world of travel began with a simple realization: Life is too short to stay in one place. We craved new experiences, cultural immersion, and the thrill of discovery. Whether it's wandering through ancient cities, trekking along rugged mountain trails, or savoring the flavors of local cuisines, our love for travel knows no bounds.
+            
+            Through Travel blog website, we aim to inspire and guide fellow adventurers on their own extraordinary journeys.
+            
+            
+            
+            
+            
+        </p>
+        
+
+    
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin:0;
+            }
+            .column2{
+                float:left;
+                width:35%;
+                margin-bottom:9px;
+                padding:0 8px;
+            }
+            .card{
+                box-shadow:0 2px 4px 0 rgba(0,0,0,0,2);
+                margin:1px;
+            }
+            </style>
+            
+
+    <h2 style="text-align:center;font-size: 30px;">OUR TEAM:</h2>
+    <div class="row">
+      <div class="column2">
+        <div class="card">
+          <img src="./main_files/InShot_20230924_224456720.jpg" width="350" height="250">
+          <div class="container"></div>
+            <h3>PUSHPA</h3>
+            <p class="title">TEAM LEAD</p>
+            course:Computer science<br>
+                Specialization:Artificial Intelligence and Data Science
+            <p></p><footer>
+            <a href="mailto:pushpakolli173@gmail.com">pushpakolli173@gmail.com</a><p></p></footer>
+          </div>
+        </div>
+      </div>
+      <div class="column2">
+        <div class="card">
+          <img src="./main_files/IMG-20230922-WA0031~2.jpg" width="350" height="250">
+          <div class="container">
+            <h3>CHARISHMA</h3>
+            <p class="title">TEAM MEMBER</p>
+            course:Computer science<br>
+                Specialization:Data Science
+            <p></p><footer>
+              <a href="mailto:cherryyedla2005@gmail.com">cherryyedla2005@gmail.com</a><p></p></footer>
+          </div>
+        </div>
+      </div>
+      <div class="column2">
+        <div class="card">
+          <img src="./main_files/IMG-20230922-WA0033.jpg" width="350" height="250">
+          <div class="container">
+            <h3>LAVANYA </h3>
+            <p class="title">TEAM MEMBER</p>
+            course:Computer science<br>
+                Specialization:Artificial Intelligence and Data Science
+            
+            <p></p><footer>
+              <a href="mailto:abothulavanya94@gmail.com">abothulavanya94@gmail.com</a><p></p>
+            </footer>
+          </div>
+        </div>
+      </div>
+    <div class="column2">
+      <div class="card">
+        <img src="./main_files/IMG-20230921-WA0017.jpg" width="350" height="250">
+        <div class="container">
+          <h3>SANJANA </h3>
+          <p class="title">TEAM MEMBER</p>
+          course:Computer science<br>
+                Specialization:Artificial Intelligence and Data Science
+          <p></p><footer>
+            <a href="mailto:sanjanaramoju26@gmail.com">sanjanaramoju26@gmail.com</a><p></p>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <!-- Code injected b--></section></body></html>
